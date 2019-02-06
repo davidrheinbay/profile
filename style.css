@@ -13,11 +13,11 @@ p {
 }
 
 img {
-  width: 30%;
+  width: 300px;
 }
 
 .container {
-  width: 80%;
+  width: 66%;
   margin: 0 auto;
 }
 
@@ -46,7 +46,7 @@ img {
 .card th {
   padding: 5px 10px;
   background-color: #a0edf7;
-  width: 33%;
+  width: 300px;
 }
 
 .img-circle {
