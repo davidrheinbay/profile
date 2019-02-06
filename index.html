@@ -1,80 +1,88 @@
 <html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
-  </head>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
 
 
-  <body>
+<body>
 
-<div class="container">
-  <div id="sidebar">
-
-  </div>
-  <div id="page-cotent">
-  <div class="card">
-    <img src="images/profile.jpeg" alt="Profile Pic" class="img-circle">
-    <h1>David Rheinbay</h1>
-    <h2>Venture Partner</h2>
-    <p>I am a startup enthusiast and passionate founder. I love great products and building companies!</p>
-  </div>
-  <div class="card">
-    <h2>Key Social Skills</h2>
-    <ol class="list-inline">
-      <li>Communication
-        <br>
-        <br>
-        <i class="fas fa-bullhorn icon"></i></li>
-      <li>
-        Teambuilding
-        <br>
-        <br>
-        <i class="fas fa-users icon"></i>
-      </li>
-      <li>
-        Recruiting
-        <br>
-        <br>
-        <i class="fas fa-graduation-cap icon"></i>
-      </li>
-      <li>
-        Coaching
-        <br>
-        <br>
-        <i class="fas fa-book icon"></i>
-      </li>
-    </ol></div>
-  <div class="card">
-    <h2>My Previouse Companies</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>Logo</th>
-          <th>Company</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><img src="images/sapaso.png" alt="Sapaso" class="logo-sm"></td>
-          <td>Sapaso</td>
-          <td>FinTech Startup</td>
-        </tr>
-        <tr>
-          <td><img src="images/factorymarket.png" alt="Factorymarket" class="logo-sm"></td>
-          <td>Factory Market</td>
-          <td>New Retail Startup</td>
-        </tr>
-      </tbody>
-    </table></div>
-  <div class="card">
-    <p>Footer</p>
+  <div class="container">
+    <div id="sidebar">
+      <div class="btn-menu">
+        <a href="#summary" class="btn-blue">Info</a>
+      </div>
+      <a href="#contact" class="btn-blue">Contact</a><br>
+      <a href="#appointment" class="btn-blue">Appointment</a><br>
+      <a href="#footer" class="btn-blue">Footer</a><br>
+    </div>
+    <div id="page-content">
+      <div class="card" id="summary">
+        <img src="images/profile.jpeg" alt="Profile Pic" class="img-circle img-medium">
+        <h1>David Rheinbay</h1>
+        <h2>Venture Partner</h2>
+        <p>I am a startup enthusiast and passionate founder. I love great products and building companies!</p>
+      </div>
+      <div class="card" id="contact">
+        <h2>Find me on</h2>
+        <ul class="list-inline">
+          <li>
+            <a href="https://www.facebook.com/drheinbay"><i class="fab fa-facebook icon"></i></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/davidbarry1"><i class="fab fa-instagram icon"></i></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/david-rheinbay-6bb68186"><i class="fab fa-linkedin icon"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h2>Stuff I am excited about:</h2>
+        <div class="card-product">
+          <img src="https://images.pexels.com/photos/825258/pexels-photo-825258.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+          <div class="card-product-infos">
+            <h2>Tech</h2>
+            <p>I love to follow all the newest developments in the <strong>tech industry</strong> all around the globe.</p>
+          </div>
+        </div>
+        <div class="card-product">
+          <img src="https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+          <div class="card-product-infos">
+            <h2>Sports</h2>
+            <p>I can't live without regular <strong>gym time</strong>! I love all sports and staying active.</p>
+          </div>
+        </div>
+        <div class="card-product">
+          <img src="https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+          <div class="card-product-infos">
+            <h2>Gaming</h2>
+            <p>I have been a <strong>gamer</strong> all my live and enjoy playing any type of game with my friends.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card" id="appointment">
+        <h2>Book an Appointment</h2>
+        <form>
+          <label for="first_name">First Name: </label>
+          <input name="first_name" type="text"><br>
+          <label for="last_name">Last Name: </label>
+          <input name="last_name" type="text"><br>
+          <label for="date">Date: </label>
+          <input name="date" type="date"><br>
+          <button type="submit" class="btn btn-blue">Book now</button>
+        </form>
+      </div>
+      <div class="card" id="footer">
+        <p>Footer</p>
+      </div>
+    </div>
   </div>
 </div>
-</div>
-  </body>
+</body>
 </html>
 
 

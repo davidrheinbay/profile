@@ -12,12 +12,43 @@ p {
   color: #393e46;
 }
 
-img {
-  width: 300px;
+
+.btn-blue {
+  background-color: #84d2f6;
+  padding: 2px 4px;
+  box-shadow: 0 0 15px rgba(0,0,0, 0.2);
+  border-radius: 2px;
+}
+
+.btn-blue:hover {
+  background-color: #59a5d8;
+}
+
+#sidebar a {
+  text-decoration: none;
+  color: rgb(10, 10, 10);
+  line-height: 30px;
+}
+
+#sidebar {
+  position: fixed;
+  width: 20%;
+  left: 0;
+  top: 20px;
+  bottom: 0;
+}
+
+#page-content {
+  margin-left: 20%;
+}
+
+.img-medium {
+  width: 60%;
+
 }
 
 .container {
-  width: 66%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -35,18 +66,17 @@ img {
 }
 
 .card img {
+  margin: 10px 20px;
+  padding: 5px;
+}
+
+.card form > input {
+  margin: 5px;
+}
+
+.card form > button {
   margin: 10px;
-  padding: 5px;
-}
-
-.card li {
-  padding: 5px;
-}
-
-.card th {
-  padding: 5px 10px;
-  background-color: #a0edf7;
-  width: 300px;
+  margin-bottom: 20px;
 }
 
 .img-circle {
@@ -54,13 +84,11 @@ img {
   border: grey 2px solid;
 }
 
-.logo-sm {
-  width: 200px;
-}
-
 .list-inline > li {
   display: inline-block;
   padding: 0px 20px 10px 20px;
+  margin: 10px;
+  color: #222831;
 }
 
 .list-inline {
@@ -69,16 +97,64 @@ img {
 
 .icon {
   padding-bottom: 10px;
-  font-size: 48px;
+  font-size: 42px;
 }
 
-#sidebar {
-  position: fixed;
-  width: 300px;
-  left: 0;
-  top: 0;
-  bottom: 0;
+.avatar {
+  width: 40px;
+  border-radius: 50%;
 }
-#page-content {
-  margin-left: 300px;
+.avatar-large {
+  width: 56px;
+  border-radius: 50%;
 }
+.avatar-bordered {
+  width: 40px;
+  border-radius: 50%;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  border: white 1px solid;
+}
+.avatar-square {
+  width: 40px;
+  border-radius: 0px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  border: white 1px solid;
+}
+
+.card-product {
+  overflow: hidden;
+  height: 120px;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.card-product img {
+  height: 100%;
+  width: 120px;
+  object-fit: cover;
+}
+
+.card-product h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  text-align: left;
+}
+
+.card-product p {
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: .7;
+  margin-bottom: 0;
+  margin-top: 8px;
+  text-indent: 15px;
+}
+
+.card-product .card-product-infos {
+  padding: 16px;
+}
+
+
