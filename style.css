@@ -1,0 +1,72 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #e6f5ff;
+  color: #222831;
+  font-weight: 1000;
+  text-align: center;
+}
+
+p {
+  font-weight: 400;
+  color: #393e46;
+}
+
+img {
+  width: 30%;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #eeeeee;
+  opacity: 0.5
+  margin: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0, 0.2);
+  border-radius: 5px;
+}
+
+.card p, h2 {
+  margin: 10px;
+  padding: 15px;
+}
+
+.card img {
+  margin: 10px;
+  padding: 5px;
+}
+
+.card li {
+  padding: 5px;
+}
+
+.card th {
+  padding: 5px 10px;
+  background-color: #a0edf7;
+  width: 33%;
+}
+
+.img-circle {
+  border-radius: 50%;
+  border: grey 2px solid;
+}
+
+.logo-sm {
+  width: 200px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px 10px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.icon {
+  padding-bottom: 10px;
+  font-size: 48px;
+}
